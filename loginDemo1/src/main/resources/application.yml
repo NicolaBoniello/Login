@@ -1,0 +1,12 @@
+spring:
+
+    datasource:
+        url:
+        username:
+        password:
+
+    jpa:
+        database: mysql
+        show_sql: true
+        hibernate:
+            ddl-auto: create-drop
